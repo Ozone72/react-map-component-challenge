@@ -2,7 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.666;
-  background: url(../images/Subtle-Prism.svg) repeat;
+  background: #c0d2d4;
   color: #555;
 }
 
@@ -33,11 +33,9 @@ h1 span {
   max-width: 20rem;
   margin-bottom: 3rem;
   padding: 2rem;
-  backdrop-filter: blur(4.0px);
-  -webkit-backdrop-filter: blur(7.5px);
-  border-radius: 10px;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  background: rgba(194, 78, 46, 0.35);
+  border-radius: 3px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
   transition: all 100ms ease-in-out;
 }
 
